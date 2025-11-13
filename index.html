@@ -21,14 +21,10 @@
       --card-border: rgba(148, 163, 184, 0.5);
       --card-glow: rgba(59, 130, 246, 0.25);
       --accent: #16a34a;
-      --accent-soft: #bbf7d0;
-      --accent-red: #f97373;
-      --accent-red-soft: #fee2e2;
       --accent-blue: #2563eb;
       --muted: #6b7280;
       --fg: #0f172a;
       --fg-soft: #374151;
-      --border-soft: rgba(148, 163, 184, 0.4);
     }
 
     * { box-sizing: border-box; }
@@ -214,10 +210,7 @@
       margin-top: 6px;
     }
 
-    /* Topic dots grid */
-    .lessons-wrapper {
-      margin-top: 6px;
-    }
+    .lessons-wrapper { margin-top: 6px; }
 
     .lessons-grid {
       display: grid;
@@ -307,9 +300,7 @@
       background: #ffffff;
     }
 
-    input[type="number"] {
-      max-width: 140px;
-    }
+    input[type="number"] { max-width: 140px; }
 
     .checkbox-inline {
       display: inline-flex;
@@ -320,9 +311,7 @@
       color: var(--fg-soft);
     }
 
-    .checkbox-inline input {
-      cursor: pointer;
-    }
+    .checkbox-inline input { cursor: pointer; }
 
     button.primary {
       background: var(--accent-blue);
@@ -358,7 +347,6 @@
       box-shadow: none;
     }
 
-    /* Flashcard area */
     .flashcard-area {
       margin-top: 22px;
       display: none;
@@ -393,7 +381,6 @@
         background 0.2s ease;
     }
 
-    /* Keep only a soft glow, no inner circle */
     .flashcard::before {
       content: "";
       position: absolute;
@@ -435,16 +422,12 @@
       letter-spacing: 0.16em;
       color: var(--muted);
       margin-bottom: 6px;
-      position: relative;
-      z-index: 1;
     }
 
     .flashcard-text-main {
       font-size: 24px;
       font-weight: 700;
       margin-bottom: 4px;
-      position: relative;
-      z-index: 1;
       color: #0f172a;
     }
 
@@ -452,8 +435,6 @@
       font-size: 21px;
       color: #111827;
       opacity: 0.96;
-      position: relative;
-      z-index: 1;
     }
 
     .flashcard-lesson {
@@ -467,7 +448,6 @@
       background: rgba(255, 255, 255, 0.8);
       padding: 4px 8px;
       border-radius: 999px;
-      backdrop-filter: blur(4px);
       border: 1px solid rgba(209, 213, 219, 0.8);
       text-transform: capitalize;
     }
@@ -527,9 +507,7 @@
       background: #bbf7d0;
     }
 
-    .hidden {
-      display: none;
-    }
+    .hidden { display: none; }
 
     @media (max-width: 640px) {
       .container {
@@ -540,12 +518,8 @@
         flex-direction: column;
         align-items: flex-start;
       }
-      .flashcard-text-main {
-        font-size: 22px;
-      }
-      .flashcard-text-sub {
-        font-size: 19px;
-      }
+      .flashcard-text-main { font-size: 22px; }
+      .flashcard-text-sub { font-size: 19px; }
     }
   </style>
 </head>
@@ -557,7 +531,7 @@
           <div class="title-block">
             <h1>Spanish Flashcards</h1>
             <p class="tagline">
-              Upload your vocabulary, tap topic dots, and train with clean, flip-to-reveal cards.
+              Auto-loaded vocab + topic dots + clean flip-to-reveal cards.
             </p>
           </div>
           <div class="pill">
@@ -566,29 +540,28 @@
           </div>
         </div>
 
-        <!-- Section 1: Upload -->
         <div class="section">
-          <div class="section-title">Step 1 · Load your vocabulary</div>
-          <label for="fileInput">CSV file</label>
+          <div class="section-title">Step 1 · Vocabulary source</div>
+          <label for="fileInput">CSV file (optional override)</label>
           <input type="file" id="fileInput" accept=".csv" />
           <div id="fileStatus" class="badge">
             <span class="badge-dot"></span>
-            Waiting for upload…
+            Trying to auto-load <code>spanish_vocab.csv</code>…
           </div>
           <div id="fileError" class="error hidden"></div>
           <p class="hint">
+            Default file: <strong>spanish_vocab.csv</strong> (in the same folder as this page).<br>
             Format: <strong>topic, english, spanish</strong> — e.g. <code>face, eye, ojo</code>.
           </p>
         </div>
 
-        <!-- Section 2: Topic selection + settings -->
         <div class="section">
           <div class="section-title">Step 2 · Choose what to study</div>
 
           <div class="lessons-wrapper">
             <label>Topics</label>
             <div id="lessonsContainer">
-              <p class="lesson-empty">Upload a CSV to see your topics as dots.</p>
+              <p class="lesson-empty">Waiting for vocabulary to load…</p>
             </div>
             <p class="hint">
               Red = off · Green = selected topic (you can combine multiple).
@@ -624,7 +597,6 @@
           </div>
         </div>
 
-        <!-- Section 3: Flashcards -->
         <div id="flashcardArea" class="flashcard-area">
           <div class="flashcard" id="flashcard">
             <div class="flashcard-label" id="flashcardLabel">Front: English</div>
@@ -657,18 +629,16 @@
   <script>
     const STORAGE_KEY = 'lingafy_flashcards_stats_v1_topics';
 
-    // Global state
-    let allCards = [];         // all cards from CSV
-    let sessionCards = [];     // cards in current session
-    let currentIndex = 0;      // index in sessionCards
-    let showingBack = false;   // is current card flipped?
-    let cardStats = {};        // { [cardId]: {seen, correct, wrong, box, lastSeen} }
+    let allCards = [];
+    let sessionCards = [];
+    let currentIndex = 0;
+    let showingBack = false;
+    let cardStats = {};
     let sessionTarget = 0;
     let sessionSeenIds = new Set();
     let sessionCorrect = 0;
     let sessionWrong = 0;
 
-    // Elements
     const fileInput = document.getElementById('fileInput');
     const fileStatus = document.getElementById('fileStatus');
     const fileError = document.getElementById('fileError');
@@ -690,10 +660,15 @@
     const btnGood = document.getElementById('btnGood');
     const sessionStatus = document.getElementById('sessionStatus');
 
-    // Load stored stats
+    // Load stats immediately
     loadStats();
 
-    // File upload
+    // Auto-load spanish_vocab.csv after DOM is ready
+    document.addEventListener('DOMContentLoaded', () => {
+      autoLoadCSV();
+    });
+
+    // File upload override
     fileInput.addEventListener('change', (event) => {
       const file = event.target.files[0];
       if (!file) return;
@@ -703,18 +678,16 @@
         const text = e.target.result;
         try {
           allCards = parseCSV(text);
-          if (!allCards.length) {
-            throw new Error('No valid rows found in CSV.');
-          }
+          if (!allCards.length) throw new Error('No valid rows found in CSV.');
           fileStatus.innerHTML =
-            '<span class="badge-dot"></span>Loaded ' + allCards.length + ' cards.';
+            '<span class="badge-dot"></span>Loaded ' + allCards.length + ' cards (from uploaded file).';
           fileError.classList.add('hidden');
           renderTopicDots(allCards);
           startButton.disabled = false;
         } catch (err) {
           console.error(err);
           fileStatus.innerHTML =
-            '<span class="badge-dot"></span>Failed to load CSV';
+            '<span class="badge-dot"></span>Failed to load uploaded CSV';
           fileError.textContent = 'Error: ' + err.message;
           fileError.classList.remove('hidden');
           lessonsContainer.innerHTML =
@@ -724,6 +697,30 @@
       };
       reader.readAsText(file, 'utf-8');
     });
+
+    async function autoLoadCSV() {
+      try {
+        const response = await fetch('spanish_vocab.csv', { cache: 'no-store' });
+        if (!response.ok) {
+          throw new Error('HTTP ' + response.status);
+        }
+        const text = await response.text();
+        allCards = parseCSV(text);
+        if (!allCards.length) {
+          throw new Error('No valid rows found in spanish_vocab.csv.');
+        }
+        fileStatus.innerHTML =
+          '<span class="badge-dot"></span>Auto-loaded ' + allCards.length + ' cards from spanish_vocab.csv';
+        fileError.classList.add('hidden');
+        renderTopicDots(allCards);
+        startButton.disabled = false;
+      } catch (err) {
+        console.warn('Auto-load failed:', err);
+        fileStatus.innerHTML =
+          '<span class="badge-dot"></span>Could not auto-load spanish_vocab.csv; please upload a CSV file.';
+        // lessonsContainer already has a placeholder text
+      }
+    }
 
     function makeCardId(topic, english, spanish) {
       return topic + '|' + english.trim() + '|' + spanish.trim();
@@ -740,10 +737,7 @@
         if (parts.length < 3) continue;
 
         const first = parts[0].trim();
-        // Skip header if looks like "lesson" or "topic"
-        if (i === 0 && /^(lesson|topic)$/i.test(first)) {
-          continue;
-        }
+        if (i === 0 && /^(lesson|topic)$/i.test(first)) continue;
 
         const topic = first;
         const english = parts[1].trim();
@@ -759,9 +753,7 @@
     function loadStats() {
       try {
         const raw = localStorage.getItem(STORAGE_KEY);
-        if (raw) {
-          cardStats = JSON.parse(raw);
-        }
+        if (raw) cardStats = JSON.parse(raw);
       } catch {
         cardStats = {};
       }
@@ -770,28 +762,17 @@
     function saveStats() {
       try {
         localStorage.setItem(STORAGE_KEY, JSON.stringify(cardStats));
-      } catch {
-        // ignore
-      }
+      } catch {}
     }
 
     function getStatsForCard(card) {
-      if (!card.id) {
-        card.id = makeCardId(card.topic, card.english, card.spanish);
-      }
+      if (!card.id) card.id = makeCardId(card.topic, card.english, card.spanish);
       if (!cardStats[card.id]) {
-        cardStats[card.id] = {
-          seen: 0,
-          correct: 0,
-          wrong: 0,
-          box: 1,
-          lastSeen: 0
-        };
+        cardStats[card.id] = { seen: 0, correct: 0, wrong: 0, box: 1, lastSeen: 0 };
       }
       return cardStats[card.id];
     }
 
-    // Topic dots (red/green pills)
     function renderTopicDots(cards) {
       const topics = [...new Set(cards.map(c => c.topic))].sort((a, b) =>
         a.localeCompare(b, undefined, { sensitivity: 'base', numeric: true })
@@ -800,7 +781,7 @@
       if (!topics.length) {
         lessonsContainer.innerHTML =
           '<p class="lesson-empty">No topics were found in this file.</p>';
-      startButton.disabled = true;
+        startButton.disabled = true;
         return;
       }
 
@@ -812,11 +793,9 @@
         dot.className = 'lesson-dot';
         dot.textContent = topic;
         dot.dataset.topic = topic;
-
         dot.addEventListener('click', () => {
           dot.classList.toggle('selected');
         });
-
         grid.appendChild(dot);
       });
 
@@ -827,9 +806,7 @@
     function getSelectedTopics() {
       const dots = lessonsContainer.querySelectorAll('.lesson-dot.selected');
       const selected = [];
-      dots.forEach(dot => {
-        selected.push(dot.dataset.topic);
-      });
+      dots.forEach(dot => selected.push(dot.dataset.topic));
       return selected;
     }
 
@@ -862,7 +839,6 @@
       flashcardMain.textContent = frontText;
       flashcardSub.textContent = backText;
 
-      // Reset to front only
       showingBack = false;
       flashcardMain.classList.remove('hidden');
       flashcardSub.classList.add('hidden');
@@ -897,7 +873,7 @@
       if (quality === 'again') {
         stats.wrong += 1;
         stats.box = Math.max(1, (stats.box || 1) - 1);
-        sessionCards.push(card);      // repeat later
+        sessionCards.push(card);
         sessionWrong += 1;
       } else {
         stats.correct += 1;
@@ -911,7 +887,6 @@
       currentIndex += 1;
 
       if (currentIndex >= sessionCards.length) {
-        // Session complete
         showingBack = false;
         flashcardLabel.textContent = 'Session complete';
         flashcardMain.textContent = 'Nice work';
@@ -919,8 +894,7 @@
         flashcardLesson.textContent = '';
         flashcard.classList.remove('back-side');
         cardHistory.textContent =
-          `This session: known ${sessionCorrect}, need review ${sessionWrong}. ` +
-          'Start a new session to keep going.';
+          `This session: known ${sessionCorrect}, need review ${sessionWrong}. Start a new session to keep going.`;
         sessionStatus.textContent =
           `Session finished · Studied ${sessionSeenIds.size} cards.`;
         return;
@@ -930,7 +904,6 @@
       updateSessionStatus();
     }
 
-    // Start session
     startButton.addEventListener('click', () => {
       const selectedTopics = getSelectedTopics();
       if (!selectedTopics.length) {
@@ -945,9 +918,7 @@
       }
 
       let pool = filtered.slice();
-      if (randomOrderCheckbox.checked) {
-        shuffle(pool);
-      }
+      if (randomOrderCheckbox.checked) shuffle(pool);
 
       const target = parseInt(sessionSizeInput.value, 10);
       if (!Number.isFinite(target) || target <= 0 || target > pool.length) {
@@ -967,23 +938,19 @@
       updateSessionStatus();
     });
 
-    // Card click: flip, then treat as "good"
     flashcard.addEventListener('click', () => {
       if (!sessionCards.length) return;
 
       if (!showingBack) {
-        // Flip to back: show translation only
         showingBack = true;
         flashcardMain.classList.add('hidden');
         flashcardSub.classList.remove('hidden');
         flashcard.classList.add('back-side');
       } else {
-        // Second click: “I knew it” and move on
         rateAndNext('good');
       }
     });
 
-    // Explicit rating buttons
     btnAgain.addEventListener('click', () => {
       if (!sessionCards.length) return;
       rateAndNext('again');
@@ -994,10 +961,9 @@
       rateAndNext('good');
     });
 
-    // Change direction mid-session
     directionSelect.addEventListener('change', () => {
       if (!sessionCards.length) return;
-      updateFlashcard(); // reset to front-only
+      updateFlashcard();
     });
   </script>
 </body>

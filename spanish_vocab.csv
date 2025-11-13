@@ -1,0 +1,1326 @@
+﻿1,apple,mollë
+1,cherry,qershi
+1,grape,rrush
+1,strawberry,luleshtrydhe
+1,green,jeshile
+1,yellow,e verdhë
+1,red,i kuq
+1,blue,blu
+2,banana,banane
+2,lemon,limon
+2,orange,portokalli
+2,tomato,domate
+2,orange,portokalli
+2,white,e bardhë
+2,black,i zi
+2,purple,vjollcë
+3,tree,pemë
+3,flower,lule
+3,seed,farë
+3,leaf,gjethe
+3,big,i madh
+3,small,i vogël
+3,short,i shkurtër
+3,tall,i gjatë
+4,and,dhe
+5,fruit,fruta
+5,pineapple,ananas
+6,watermelon,shalqi
+6,grass,bar
+6,plant,bimë
+6,brown,kafe
+6,gray/ grey,gri/ gri
+7,long,i gjatë
+7,wide,i gjerë
+7,thin,i hollë
+7,soft,i butë
+8,clean,i pastër
+8,dirty,i ndyrë
+8,wet,i lagësht
+8,dry,i thatë
+9,building,ndërtesë
+9,bridge,urë
+9,city,qytet
+9,house,shtëpi
+9,street,rrugë
+9,tower,kullë
+9,hotel,hotel
+9,airport,aeroport
+10,beach,plazh
+10,cloud,re
+10,forest,pyll
+10,mountain,mal
+10,bright,i ndritshëm
+10,dark,errësirë
+10,loud,me zë të lartë
+10,quiet,i qetë
+11,bed,shtrat
+11,chair,karrige
+11,door,derë
+11,room,dhomë
+11,flat,i sheshtë
+11,heavy,i rëndë
+11,hard,i vështirë
+11,ugly,i shëmtuar
+12,very,shumë
+14,This,Kjo
+15,That,Kjo
+16,These,Këto
+16,Those,Ato
+18,delicious,i shijshëm
+18,sour,i thartë
+18,spicy,pikant
+18,sweet,i ëmbël
+19,cat,mace
+19,dog,qen
+19,mouse,miu
+19,rabbit,lepur
+20,"not, is not","jo, nuk është"
+22,knife,thikë
+22,fork,pirun
+22,spoon,lugë
+22,table,tavolinë
+23,Sharp,I mprehtë
+23,dull,i shurdhër
+24,on,në
+27,ant,milingonë
+27,butterfly,flutur
+27,beautiful,i bukur
+29,want (verb),dua (folje)
+29,I,Unë
+29,You,Ti
+29,He,Ai
+29,She,Ajo
+32,ring,unazë
+32,shirt,këmishë
+32,pillow,jastëk
+32,silver,argjend
+33,gold,ari
+35,egg,vezë
+35,mushroom,kërpudhë
+35,onion,qepë
+35,box,kuti
+35,in,në
+35,snake,gjarpër
+35,spider,merimangë
+36,purse,portofol
+36,wallet,portofol
+36,watch,shikoj
+36,bird,zog
+36,bank,bankë
+36,store,dyqan
+36,island,ishull
+37,sand,rërë
+37,animal,kafshë
+37,jungle,xhungël
+37,river,lumë
+37,valley,luginë
+37,lake,liqen
+37,desert,shkretëtirë
+37,deep,i thellë
+37,shallow,i cekët
+38,boy,djalë
+38,girl,vajzë
+38,horse,kalë
+38,fish,peshk
+38,happy,i lumtur
+38,sad,i trishtuar
+38,man,burrë
+38,woman,grua
+38,it,atë
+38,angry,i zemëruar
+39,fat,yndyrë
+39,skinny/thin,i dobët/i hollë
+39,handsome,i pashëm
+39,waiter,kamerier
+39,waitress,kamariere
+39,person,person
+39,people,njerëz
+39,we,ne
+39,doctor,mjek
+39,dentist,dentist
+39,farmer,fermer
+40,You plural. Ya'll,"Ti shumës. Po, do të"
+41,have (verb),kam (folje)
+41,window,dritare
+41,brother,vëlla
+41,sister,motër
+41,boyfriend,i dashuri
+41,girlfriend,e dashura
+42,of,e
+42,"my, male female plural.","im, mashkull femër shumës."
+43,mine. ,imja.
+44,Where? Where is? ,Ku? Ku është?
+45,nose,hundë
+45,face,fytyrë
+45,mouth,gojë
+45,her/hers,e saj/e saj
+45,eye,sy
+45,his,e tij
+45,ear,vesh
+45,lip,buzë
+46,your,juaj
+46,head,kokë
+47,our,tonë
+47,y'alls (yours plural),ju të gjithë (shumësi i juaji)
+47,Their,E tyre
+48,cow,lopë
+48,chicken,pulë
+49,Is there…?,A ka…?
+49,bottle,shishe
+49,water,ujë
+49,"yes, no","po, jo"
+49,empty,bosh
+49,full,i plotë
+49,kitchen,kuzhinë
+49,hall,sallë
+49,bathroom,banjo
+49,wall,mur
+50,full of,plot me
+50,or,ose
+51,sea,det
+51,ocean,oqean
+51,here,këtu
+51,there (location),atje (vendndodhja)
+52,be (verb : to be),të jem (folje: të jesh)
+53,book,libër
+53,belt,rrip
+53,shoe,këpucë
+53,clothes,rroba
+53,thing,gjë
+54,bedroom,dhomë gjumi
+54,chef,shef kuzhine
+54,nurse,infermiere
+54,living room,dhomë ndenjeje
+54,mother,nënë
+55,young,i ri
+55,old,i vjetër
+55,father,babai
+55,queen,mbretëreshë
+55,king,mbret
+55,bear,ariu
+56,key,çelës
+56,under,nën
+56,new,i ri
+56,boat,varkë
+56,Do I? Does he/they have?,A kam unë? A ka ai/ata?
+56,wife,grua
+56,husband,burri
+56,Who?  Who is? Who are?,Kush? Kush është? Kush janë?
+57,daughter,bijë
+57,son,bir
+58,Whose?,I kujt?
+58,prince,princ
+58,princess,princeshë
+58,now,tani
+58,rich,i pasur
+58,poor,i varfër
+59,Which?,Cili?
+59,fresh,i freskët
+59,ripe,i pjekur
+59,rotten,i kalbur
+60,cold,i ftohtë
+60,hot,i nxehtë
+61,plate,pjatë
+61,silverware,argjendari
+61,restaurant,restorant
+61,eat (verb in Present Simple),ha (folje në të tashmen e thjeshtë)
+62,park,park
+62,garden,kopsht
+62,church,kishë
+62,mosque,xhami
+62,road,rrugë
+63,any,çdo
+63,not any / isn't any,jo ndonjë / nuk është ndonjë
+63,many,shumë
+63,very many,shumë e shumë
+63,a lot of,shumë
+63,few,pak
+63,salt,kripë
+64,not a lot of,jo shumë
+64,snow,borë
+64,not many,jo shumë
+64,not much,jo shumë
+64,ice,akull
+64,fog,mjegull
+64,rain (noun)  (not to be raining),shi (emër) (të mos bie shi)
+64,storm,stuhi
+65,what?,çfarë?
+65,cup,kupë
+65,sugar,sheqer
+65,inside,brenda
+65,refrigerator,frigorifer
+65,outside,jashtë
+65,vegetable,perime
+66,carrot,karrotë
+66,raspberry,mjedër
+66,parent,prind
+66,crab,gaforre
+66,meat,mish
+66,hospital,spital
+67,made of,bërë nga
+67,cotton,pambuk
+67,silk,mëndafsh
+67,pants,pantallona
+67,boot,çizme
+67,leather,lëkurë
+67,coat,pallto
+67,expensive,i shtrenjtë
+67,fur,lesh
+67,cheap (inexpensive),i lirë (i lirë)
+67,wool,lesh
+67,comfortable,i rehatshëm
+68,but,por
+68,pink,rozë
+68,every,çdo
+68,money,para
+68,Not every,Jo çdo
+68,Some,Disa
+68,tail,bisht
+68,all,të gjithë
+68,Not all,Jo të gjitha
+68,leg,këmbë
+69,most,shumica
+69,wing,krah
+69,duck,rosë
+69,goose,patë
+69,owl,buf
+69,beak,sqep
+70,only,vetëm
+71,like (verb),si (folje)
+71,bread,bukë
+72,worm,krimb
+72,Monkey,Majmun
+73,live (verb),jetoj (folje)
+73,next to,pranë
+74,Spain,Spanjë
+74,Italy,Italia
+74,France,Francë
+74,coast,bregdet
+74,Portugual,Portugali
+74,country,vend
+74,Europe,Evropë
+74,Germany,Gjermania
+75,From,Nga
+75,grandmother,gjyshe
+75,North. ,Veri.
+75,South,Jug
+75,West,Perëndim
+75,East,Lindje
+75,grandfather,gjysh
+76,between,midis
+76,also,gjithashtu
+76,French,frëngjisht
+76,German,gjermanisht
+76,Italian,italiane
+76,Spanish,Spanjisht
+76,Portuguese,portugalisht
+77,good,i mirë
+77,bad,i keq
+77,northern,verior
+77,southern,jugore
+77,eastern,lindor
+77,western,perëndimor
+78,milk,qumësht
+78,drink (verb),pi (folje)
+78,juice,lëng
+78,beer,birrë
+78,coffee,kafe
+78,tea,çaj
+79,friend,mik
+79,boss,shef
+79,family,familje
+79,material,material
+79,wood,dru
+79,metal,metal
+79,stone,gur
+79,glass,gotë
+79,bracelet,byzylyk
+79,necklace,gjerdan
+79,sock,çorape
+79,glasses (spectacles),syze (syze)
+80,wear (verb),vesh (folje)
+80,dress,fustan
+80,lawyer,avokat
+81,affectionate,i dashur
+81,loving,i dashur
+81,cute,i lezetshëm
+81,friendly,miqësor
+81,greedy,lakmitar
+81,lazy,dembel
+81,rude,i paedukatë
+81,shy,i turpshëm
+81,strong,i fortë
+81,weak,i dobët
+81,nice,i këndshëm
+81,funny (causes laughter),qesharak (shkakton të qeshura)
+82,someone,dikush
+82,pet,kafshë shtëpiake
+82,side,anë
+82,left,majtas
+82,right,djathtas
+82,arm,krah
+82,hand,dorë
+83,How many?,Sa shumë?
+84,finger,gisht
+84,foot/feet,këmbë/këmbë
+84,no one / not any person,askush / asnjë person
+84,everyone,të gjithë
+84,neck,qafë
+84,skin,lëkurë
+85,tooth/teeth,dhëmb/dhëmbë
+85,tongue,gjuhë
+85,heart,zemër
+85,bone,kockë
+85,body,trup
+85,back,mbrapa
+85,back #2  (location),mbrapa #2 (vendndodhja)
+86,When?,Kur?
+86,later,më vonë
+86,born (verb),i lindur (folje)
+86,august,gusht
+86,summer,verë
+86,month,muaj
+86,winter,dimër
+86,december,dhjetor
+86,spring,pranverë
+86,april,prill
+86,autumn,vjeshtë
+86,october,tetor
+86,year,vit
+87,months (all of them),muaj (të gjithë)
+87,day,ditë
+87,week,javë
+88,baby,foshnjë
+89,puppy,këlysh
+89,kitten,kotele
+90,Last,E fundit
+90,next,tjetër
+91,today,sot
+91,Yesterday,Dje
+91,morning,mëngjes
+91,afternoon,pasdite
+91,Evening,Mbrëmje
+91,"Night, tonight","Natën, sonte"
+93,Days of the week,Ditët e javës
+93,weekend,fundjavë
+94,ago,më parë
+95,hour,orë
+96,tomorrow,nesër
+97,minute,minutë
+99,bored,i mërzitur
+99,hungry,i uritur
+99,Thirsty,I etur
+99,Afraid,I frikësuar
+99,tired,i lodhur
+99,busy,i zënë
+101,something,diçka
+101,anything,çdo gjë
+103,bee,bletë
+104,always,gjithmonë
+104,home,shtëpi
+104,never,kurrë
+105,more,më shumë
+107,smart,i zgjuar
+109,better,më mirë
+109,best,më i miri
+109,worse,më keq
+109,worst,më i keqi
+110,teacher,mësues
+110,school,shkollë
+110,student,student
+110,study (verb),studioj (folje)
+110,art,art
+111,painting,pikturë
+111,history,histori
+111,science,shkencë
+111,university,universitet
+111,journalism,gazetari
+112,breakfast,mëngjes
+112,lunch,drekë
+112,dinner,darkë
+113,before,para
+113,after,pas
+115,sleep (verb),fle (folje)
+116,with,me
+116,together,së bashku
+117,a time,një herë
+117,per,për
+118,often,shpesh
+118,rarely,rrallë
+118,then,pastaj
+118,firstly,së pari
+119,wake up (verb),zgjohem (folje)
+119,early,herët
+119,later,më vonë
+121,usually,zakonisht
+122,O'clock,Ora
+122,What time is it?,Sa është ora?
+122,noon,mesditë
+122,midnight,mesnatë
+125,"too (degree, amount)","shumë (shkallë, sasi)"
+127,enough,mjaftueshëm
+129,work,punë
+129,office,zyrë
+129,grandparent,gjysh/gjyshe
+132,all of (as a whole),të gjithë (si një e tërë)
+132,whole,i tërë
+132,half,gjysmë
+134,"type, kind","lloj, lloj"
+134,book store,librari
+134,grocery store,dyqan ushqimor
+134,shoe store,dyqan këpucësh
+134,Café,Kafe
+134,pharmacy,farmaci
+134,bakery,furrë buke
+134,barbershop,berberhane
+134,library,bibliotekë
+134,cousin,kushëri
+135,open (adjective),hapur (mbiemër)
+135,closed (adjective,i mbyllur (mbiemër
+135,until,deri
+135,open (verb),hap (folje)
+136,same,i njëjtë
+136,close (verb),mbyll (folje)
+137,car,makinë
+137,"front, in front of","përpara, përpara"
+137,"in the back, behind","në shpinë, prapa"
+138,center,qendër
+138,across,përtej
+138,corner,qoshe
+139,uncle,xhaxhai
+139,aunt,hallë
+140,fireman,zjarrfikës
+140,police man / woman,burrë/grua policie
+142,future,e ardhmja
+142,someday,një ditë
+143,go (verb),shkoj (folje)
+144,do (verb),bëj (folje)
+146,make (verb),bëj (folje)
+146,factory,fabrikë
+146,furniture,mobilje
+148,weather,moti
+148,foggy,i mjegullt
+148,sky,qiell
+148,sun,diell
+148,cloudy,me re
+148,sunny,me diell
+149,rain (verb),shi (folje)
+150,begin (verb),filloj (folje)
+151,finish (verb),mbaroj (folje)
+152,stop (verb),ndaloj (folje)
+153,snow (verb),borë (folje)
+153,hail (noun),breshër (emër)
+153,hail (verb),breshër (folje)
+154,"make, cause (verb)","bëj, shkaktoj (folje)"
+155,proud,krenar
+155,force (verb),forcë (folje)
+155,clean (verb),i pastër (folje)
+155,every other,çdo tjetër
+156,floor,dysheme
+156,"level, story, floor","nivel, histori, dysheme"
+156,ceiling,tavan
+156,roof,çati
+157,name,emër
+157,shower,dush
+157,shower (verb),dush (folje)
+158,take (verb),marr (folje)
+158,pig,derr
+159,take a shower (verb),bëj dush (folje)
+159,put (verb),vë (folje)
+159,sink (noun),lavaman (emër)
+160,put on (verb),vesh (folje)
+161,take off (verb),nisem (folje)
+161,glove,dorezë
+161,jewelry,bizhuteri
+161,bra,sytjena
+162,through,përmes
+162,enter (verb),hyj (folje)
+163,leave (verb),largohem (folje)
+163,prison,burg
+163,soldier,ushtar
+164,near / close to,afër / afër
+164,post office,postë
+164,mailman,postier
+164,police station,stacion policie
+164,far,larg
+164,fire station / firehouse,stacion zjarrfikësish / zjarrfikës
+165,need (verb),nevojë (folje)
+166,hat,kapelë
+166,diamond,diamant
+166,suit,kostum
+166,uniform,uniformë
+167,carry (verb),mbaj (folje)
+167,bag,çantë
+167,corn,misër
+167,butter,gjalpë
+167,cheese,djathë
+168,potato,patate
+168,"bland, tasteless","i butë, pa shije"
+168,food,ushqim
+168,soup,supë
+168,salty,i kripur
+168,pepper,piper
+168,ground pepper,piper i bluar
+168,rice,oriz
+168,honey,mjaltë
+168,towel,peshqir
+169,bring (verb),sjell (folje)
+170,neighborhood,lagje
+170,neighbor,fqinj
+171,flavor,shije
+171,cake,tortë
+171,blueberry,boronicë
+171,disgusting,i neveritshëm
+171,favorite,i preferuar
+172,place,vend
+172,buy (verb),blej (folje)
+172,castle,kështjellë
+173,soon,së shpejti
+173,sell (verb),shes (folje)
+174,birthday,ditëlindje
+174,candle,qiri
+174,fire,zjarr
+174,flame,flakë
+175,burn (verb),djeg (folje)
+176,cook (verb),gatuaj (folje)
+176,pork,derri
+176,beef,viçi
+177,oven,furrë
+177,bake (verb),piq (folje)
+177,baker,bukëpjekës
+178,lobster,karavidhe
+178,clam,midhje
+178,shrimp,karkaleca deti
+178,oyster,gocë deti
+178,boil (verb),ziej (folje)
+179,stove,sobë
+179,sheep,dele
+179,goat,dhi
+179,lamb,qengj
+179,snail,kërmill
+180,elephant,elefant
+180,fly (insect),mizë (insekt)
+180,paw,puthë
+180,hoof,thundër
+180,trunk (of elephant),feçkë (e elefantit)
+180,snout,hundë
+181,gift,dhuratë
+181,give (verb),jap (folje)
+182,dollar,dollar
+182,cost (verb),kosto (folje)
+182,pound,paund
+182,kilogram,kilogram
+182,numbers,numra
+183,weigh (verb) self,peshoj (folje) veten
+184,deliver (verb),dorëzoj (folje)
+186,letter (mail),letër (postë)
+186,magazine,revistë
+186,newspaper,gazetë
+186,read (verb),lexoj (folje)
+187,color,ngjyrë
+187,rainbow,ylber
+187,paper,letër
+187,pencil,laps
+187,pen,stilolaps
+188,story,histori
+188,write (verb),shkruaj (folje)
+189,send (verb),dërgoj (folje)
+190,already,tashmë
+190,yet,ende
+191,swimming pool,pishinë
+191,swim (verb),notoj (folje)
+192,dance (verb),valle (folje)
+193,How?,Si?
+193,well,mirë
+193,badly,keq
+194,"can, be able (model verb)","mundem, të jem në gjendje (folje model)"
+196,sport,sport
+196,tennis,tenis
+196,play (verb),luaj (folje)
+197,play instrument (verb),luaj instrument (folje)
+198,may (permitted)(model verb),mund (lejohet) (folje model)
+198,earings,vathë
+198,pearl,perlë
+198,lose (cannot find) (verb),humbas (nuk mund të gjej) (folje)
+199,search (verb),kërkoj (folje)
+199,criminal,kriminel
+200,thief,hajdut
+200,gun,armë
+200,hide (verb),fsheh (folje)
+201,weapon,armë
+201,finally,më në fund
+201,find (verb),gjej (folje)
+202,help (help),ndihmë (ndihmë)
+203,twin,binjak
+203,walk (verb),ec (folje)
+203,nephew,nip
+203,niece,mbesë
+204,drive (verb),ngas (folje)
+205,airplane,aeroplan
+205,pilot,pilot
+205,flight attendant,asistente fluturimi
+205,fly (verb),fluturoj (folje)
+206,run (verb),vrapoj (folje)
+207,along,përgjatë
+207,music,muzikë
+207,song,këngë
+207,listen (verb),dëgjoj (folje)
+208,movie / cinema,film / kinema
+208,tv-show,shfaqje televizive
+208,theater / theatre,teatër / teatër
+208,play (theater),lojë (teatër)
+208,television,televizion
+208,watch (verb),shikoj (folje)
+209,hear (verb),dëgjoj (folje)
+209,noise,zhurmë
+209,sound,tingull
+209,universe,univers
+209,star,yll
+209,moon,hënë
+209,planet,planet
+209,earth,tokë
+209,world,botë
+210,see (verb),shoh (folje)
+211,smell / odor / aroma,erë / erë / aromë
+211,smell (verb),nuhas (folje)
+212,smell like (verb),mbaj erë si (folje)
+213,stink (verb),erë e keqe (folje)
+214,mirror,pasqyrë
+214,reflection,reflektim
+214,look (verb),shikoj (folje)
+214,sunflower,luledielli
+214,nut,arrë
+214,peanut,kikirik
+215,look / appear (verb),shikoj / dukem (folje)
+216,show (verb),tregoj (folje)
+217,president,president
+217,secretary,sekretar
+217,light,dritë
+217,lamp,llambë
+217,on,në
+217,off,fikur
+218,turn on (verb),ndez (folje)
+219,turn off (verb),fik (folje)
+220,gate,portë
+220,fence,gardh
+220,lock,dryn
+220,lock (verb),kyç (folje)
+221,unlock (verb),zhbllokoj (folje)
+222,hair,flokë
+222,barber,berber
+222,cut (verb),prerë (folje)
+223,shoulder,shpatull
+223,elbow,bërryl
+223,wrist,kyçi i dorës
+223,knee,gju
+223,ankle,kyçin e këmbës
+223,pain,dhimbje
+223,health,shëndet
+223,healthy,i shëndetshëm
+223,hurt (verb),lëndoj (folje)
+224,injure (verb),lëndoj (folje)
+225,stairs,shkallët
+225,fall (verb),bie (folje)
+226,careful,i kujdesshëm
+226,wind,erë
+226,feel (verb),ndiej (folje)
+227,feeling,ndjenjë
+227,nervous,nervoz
+227,embarrassed,i turpëruar
+227,relaxed,i relaksuar
+227,calm,qetësi
+227,stressed,i stresuar
+227,emotion,emocion
+228,sick,i sëmurë
+228,crazy,i çmendur
+228,scar,shenjë
+229,touch (verb),prek (folje)
+230,lightning,vetëtima
+230,thunder,bubullimë
+230,blind,i verbër
+230,deaf,i shurdhër
+230,bald,tullac
+231,speak (verb),flas (folje)
+231,customer,klient
+231,shop,dyqan
+232,mute,i heshtur
+232,smile,buzëqeshje
+232,smile (verb),buzëqesh (folje)
+233,joke,shaka
+233,memory,kujtesë
+233,news,lajme
+233,tell (verb),tregoj (folje)
+233,truth,e vërteta
+234,lie (verb),gënjej (folje)
+234,patient,pacient
+235,laugh (verb),qesh (folje)
+236,because,sepse
+236,kiss (verb),puthje (folje)
+237,love (verb),dashuri (folje)
+238,think (verb),mendoj (folje)
+239,sunrise,lindje dielli
+239,sunset,perëndim dielli
+239,sit (ver),ulem (ver)
+240,granddaughter,mbesë
+240,grandson,nip
+240,arrive (verb),mbërrij (folje)
+241,wait (verb),pres (folje)
+241,enemy,armik
+242,stand (verb),qëndroj (folje)
+243,roommate,shok dhome
+243,come (verb),vij (folje)
+244,happen (verb),ndodh (folje)
+245,round,rrumbullakët
+245,"know, information (verb)","di, informacion (folje)"
+246,"know, be familiar (verb)","di, jam i njohur (folje)"
+246,grandchildren,nipër e mbesa
+247,classmate,shok klase
+247,meet (verb) become acquanted,takohem (folje) njihem
+247,"meet (verb) to gather, get together","takohem (folje) të mblidhem, të bashkohem"
+248,forget (verb),harroj (folje)
+249,remember (verb),mbaj mend (folje)
+249,forever,përgjithmonë
+249,kiss,puthje
+249,at least,të paktën
+250,try (verb),provoj (folje)
+251,broken,i thyer
+251,repair (verb),riparim (folje)
+252,teach (verb),mësoj (folje)
+253,push (verb),shtyj (folje)
+254,pull (verb),tërheq (folje)
+255,say (verb),them (folje)
+256,understand (verb),kuptoj (folje)
+256,question,pyetje
+256,answer,përgjigje
+257,ask (verb),pyet (folje)
+258,answer (verb),përgjigje (folje)
+259,practice (verb),praktikë (folje)
+260,visit (verb),vizitë (folje)
+261,promise (verb),premtim (folje)
+262,coworker,koleg pune
+262,learn - a skill (verb),mësoj - një aftësi (folje)
+263,judge,gjykatës
+263,victim,viktimë
+263,religion,fe
+263,God,Zoti
+263,believe (verb),besoj (folje)
+264,steal (verb),vjedh (folje)
+265,choose (verb),zgjedh (folje)
+266,cry (verb),qaj (folje)
+266,during,gjatë
+266,tear,lot
+266,cheek,faqe
+267,die (verb),vdes (folje)
+267,cancer,kancer
+267,accident,aksident
+267,disease,sëmundje
+268,smoke (verb),tymos (folje)
+268,again,përsëri
+268,cigarette,cigare
+269,break (verb),thyej (folje)
+270,drop (verb),lëshoj (folje)
+271,page,faqe
+271,tear (verb),shqyej (folje)
+271,hole,vrimë
+271,pocket,xhep
+271,button,buton
+272,break up (verb),ndahem (folje)
+273,breathe (verb),marr frymë (folje)
+273,smoke,tym
+274,recognize (verb),njoh (folje)
+275,return (verb) (to go back),kthehem (folje) (të kthehem prapa)
+276,borrow (verb),huazoj (folje)
+277,lend (verb),jap hua (folje)
+278,return (verb) (to give back),kthej (folje) (të jap mbrapsht)
+279,pay (verb),paguaj (folje)
+280,bill,faturë
+280,use (verb),përdor (folje)
+281,soap,sapun
+281,wash (verb),laj (folje)
+281,dish (plate),pjatë (pjatë)
+282,dry (verb),i thatë (folje)
+283,build (verb),ndërtoj (folje)
+286,become (verb),bëhem (folje)
+287,grow (verb),rritem (folje)
+288,improve (verb,përmirësoj (folje
+289,continue (verb),vazhdoj (folje)
+290,everywhere,kudo
+290,follow (verb),ndjek (folje)
+290,farm,fermë
+290,class,klasë
+291,direction,drejtim
+291,way,mënyrë
+291,cross (verb),kryq (folje)
+292,top,majë
+292,bottom,fund
+292,go up and down (verb),shkoj lart e poshtë (folje)
+293,turn (verb),kthehem (folje)
+294,get (verb),marr (folje)
+295,call (verb),thirr (folje)
+296,lid,kapak
+296,twist (verb),përdredh (folje)
+296,tight,i ngushtë
+296,loose,i lirshëm
+297,squeeze (verb),shtrydh (folje)
+297,stay (verb),qëndroj (folje)
+298,rest (verb),pushim (folje)
+298,heal (verb) (recover),shëroj (folje) (rikuperoj)
+298,injury,lëndim
+298,luckily,për fat të mirë
+298,unfortunetly,për fat të keq
+299,graveyard,varrezë
+299,dig (verb),gërmoj (folje)
+300,war,luftë
+300,kill (verb),vras (folje)
+301,bury (verb),varros (folje)
+302,wedding,dasmë
+302,marry (verb),martohem (folje)
+303,hope (verb),shpresë (folje)
+303,earn (verb),fitoj (folje)
+304,rent (verb),qira (folje)
+305,share (verb),ndaj (folje)
+306,cover (verb),mbuloj (folje)
+306,dirt,dheu
+306,mud,baltë
+306,shovel,lopatë
+306,ground,tokë
+306,rock,shkëmb
+306,puddle,pellg
+307,throw (verb),hedh (folje)
+307,ball,top
+308,jump (verb),kërcej (folje)
+308,over,mbi
+309,catch (verb),kap (folje)
+310,paint (verb),lyej (folje)
+311,painter,piktor
+311,decide (verb),vendos (folje)
+312,alone,vetëm
+312,prefer (verb),preferoj (folje)
+312,still,ende
+313,consider (verb),konsideroj (folje)
+314,hit (verb),godit (folje)
+315,fight (verb),luftoj (folje)
+316,bark (verb),leh (folje)
+317,belong (verb),përkas (folje)
+318,brush (verb),furçë (folje)
+318,enjoy (verb),shijoj (folje)
+319,describe (verb),përshkruaj (folje)
+320,wish (verb),dëshiroj (folje)
+321,keep (verb),mbaj (folje)
+322,last (verb) (endure),i fundit (folje) (duroj)
+323,explain (verb),shpjegoj (folje)
+324,win (verb),fitoj (folje)
+325,lose a game (verb) (fail),humbas një lojë (folje) (dështoj)
+326,allow (verb) (let),lejoj (folje) (lejoj)
+327,change state (verb),ndryshim gjendjeje (folje)
+328,move (verb) (an object),lëviz (folje) (një objekt)
+329,save (verb) (accumulate),ruaj (folje) (grumbulloj)
+330,spend (verb) (money),shpenzoj (folje) (para)
+331,spend (verb) (time),shpenzoj (folje) (kohë)
+332,save (verb) (rescue),ruaj (folje) (shpëtoj)
+333,safe,i sigurt
+333,dangerous,i rrezikshëm
+334,protect (verb),mbroj (folje)
+335,correct,i saktë
+335,wrong,gabim
+335,address,adresë
+336,suppose (verb),supozoj (folje)
+337,above,sipër
+337,below,poshtë
+337,army,ushtri
+337,team,ekip
+337,against,kundër
+338,maybe,ndoshta
+339,hate (verb),urrej (folje)
+340,driver,shofer
+340,traffic,trafiku
+340,shopping center,qendër tregtare
+341,salary,rrogë
+341,job,punë
+341,profession,profesion
+341,manager,menaxher
+342,jealous,xheloz
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+, ,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
